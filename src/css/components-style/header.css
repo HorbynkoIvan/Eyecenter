@@ -1,0 +1,96 @@
+/*
+.horizont {
+    border-bottom: 1px solid #ededed;
+}
+
+.header_top {
+    height: 43px;
+}
+
+.header_top_left {
+    margin: 10px 0 0 0;
+    float: left;
+}
+
+.header_top_left li {
+    float: left;
+    list-style: none;
+}
+
+.header_top_left li:first-child {
+    padding-right: 44px;
+}
+
+.header_top_left li:nth-child(2) {
+    padding-right: 31px;
+}
+
+.header_top_left > li > a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: none;
+}
+
+.header_top_left > li > a:hover, .header_top_left > li > a:focus {
+    color: #333333;
+}
+
+.header_top_left > li > a:active {
+    color: #fc411d;
+}
+
+nav {
+    height: 100px;
+    position: relative;
+}
+
+.logo {
+    float: left;
+    margin: 33px 0 60px 0;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+ul.header_nav {
+    list-style: none;
+    padding: 46px 0 0 15%;
+}
+
+.header_nav li {
+    float: left;
+    padding-left: 30px;
+}
+
+.header_nav > li > a {
+    color: #414141;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: none;
+}
+
+.header_nav > li > a:hover, .header_nav > li > a:focus {
+    color: #333333;
+    border-bottom: 2px solid #1376d4;
+    transition: 500ms;
+}
+
+.header_nav > li > a:active {
+    color: #fc411d;
+    border-bottom: none;
+}
+
+!*--------------------dropdown-----------------------*!
+.header_top_right {
+    float: right;
+}
+!*overrided styles from materiul-ui*!
+.currencyDropdown{
+    height: 43px!important;
+    border-right: 1px solid #ededed;
+}*/
