@@ -21,15 +21,15 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
     line-height: 1;
 }
-
-.container {
-  margin: 0 10%;
+*/
+@font-face {
+    font-family: Gotham;
+    src: url(./../../fonts/Gotham_Medium_Regular.ttf);
 }
-
-.row {
-    margin-left: -15px;
-    margin-right: -15px;
-}*/
+* {
+    font-family: Gotham;
+    color: #212121;
+}
 
 .container {
     width: 81.35%;
