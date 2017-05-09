@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, p {
 * {
     font-family: Gotham;
     color: #212121;
+    background-color: #f2ebe6;
 }
 
 .container {

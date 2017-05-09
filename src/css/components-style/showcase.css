@@ -1,0 +1,14 @@
+.showcase p{
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*.showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
