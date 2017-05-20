@@ -10,12 +10,11 @@ class Showcase extends Component {
     render() {
         return (
             <div className="row showcase">
-                <div className="col s6 m6">
+                <div className="col s12 m6">
                     <p>women</p>
                     <img className="responsive-img" src={womenglasses} alt="womenglasses"/>
-                    
                 </div>
-                <div className="col s6 m6">
+                <div className="col s12 m6">
                     <p>men</p>
                     <img className="responsive-img" src={menglasses} alt="menglasses"/>
                 </div>
