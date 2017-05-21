@@ -16,17 +16,19 @@ class Showcase extends Component {
                     <div className="service">
                         <div className="service-shipping">
                             <img src={shipping} alt="shipping"/>
+                            <p className="service-shipping__free">free shipping</p>
+                            <p className="service-shipping__worldwide">worldwide</p>
                         </div>
                         <div className="service-return">
                             <img src={returning} alt="returning"/>
+                            <p className="service-return__free">14 days free return</p>
+                            <p className="service-return__worldwide">worldwide</p>
                         </div>
                     </div>
                 </div>
                 <div className="col s12 m5">
                     <img className="responsive-img" src={saturation2} alt="saturation2"/>
                 </div>
-                
-
             </div>
         )
     }

@@ -3,6 +3,7 @@ import Header from './components/header/header.react';
 import Showcase from './components/header/showcase.react';
 import Specoffers from './components/content/specoffers.react';
 import Footer from './components/footer/footer.react';
+import GridList from './matuicomp/gridList';
 
 class App extends Component {
     render() {
@@ -12,6 +13,7 @@ class App extends Component {
                     <Header/>
                     <Showcase/>
                     <Specoffers/>
+                    <GridList/>
                 </div>
                 <Footer/>
             </div>
