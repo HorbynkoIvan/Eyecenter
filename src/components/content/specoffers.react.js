@@ -6,7 +6,7 @@ import saturation2 from "../../../public/img/saturation2.jpg";
 import shipping from "../../../public/img/shipping.png";
 import returning from "../../../public/img/return.png";
 
-class Showcase extends Component {
+class Specoffers extends Component {
 
     render() {
         return (
@@ -35,4 +35,4 @@ class Showcase extends Component {
 }
 ;
 
-export default Showcase;
+export default Specoffers;
