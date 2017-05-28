@@ -1,5 +1,9 @@
+header{
+    background-color: #f2ebe6;
+}
 nav{
     box-shadow: none;
+    background-color: #f2ebe6;
 }
 nav li a{
     color: #212121;;

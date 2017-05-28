@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import '../../css/components-style/specoffers.css';
-import good1 from "../../../public/img/products/Layer 7.png";
+import good1 from "../../../public/img/products/Layer-7.png";
 
 class GoodsList extends Component {
 
     render() {
         return (
-            <div className="row specoffers">
+            <div className="row goodList">
                 <div className="col s12 m3">
                     <div className="card">
                         <div className="card-image">

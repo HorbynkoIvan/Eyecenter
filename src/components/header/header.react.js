@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import $ from 'jquery';
 import '../../css/components-style/header.css';
 import '../../css/components-style/style.css';
+import Showcase from './showcase.react';
 /*import DropDownMenu from 'material-ui/DropDownMenu';*/
 import MenuItem from 'material-ui/MenuItem';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -16,7 +17,7 @@ class Header extends Component {
     render() {
         return (
             <header>
-                <nav>
+                <nav className="container">
                     <div className="nav-wrapper">
                         <a href="#" className="brand-logo">
                             <img src="./../../../logo.png" alt="logo"/>
@@ -44,6 +45,7 @@ class Header extends Component {
                         </ul>
                     </div>
                 </nav>
+                <Showcase/>
             </header>
         )
     }

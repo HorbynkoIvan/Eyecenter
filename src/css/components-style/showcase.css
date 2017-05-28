@@ -1,4 +1,4 @@
-.showcase p{
+.showcase p {
     color: #ffffff;
     font-size: 5rem;
     font-weight: bold;
@@ -7,8 +7,25 @@
     justify-content: center;
     align-items: center;
 }
-/*.showcase{
+.womenglasses-type, .menglasses-type{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 80px 0;
+}
+.showcase .dioptric, .showcase .sunglassses {
+    font-size: 1.2rem;
+    color: #bb9a7f;
+    padding: 0 18px;
+}
+
+.showcase .dioptric {
+    border-right: 1px solid #dbc9bc;
+}
+
+/*.showcase{
+    display: flex;
+    justify-content: center;//элементы выравниваются по центру главной оси;
+    align-items: center;//элементы выравниваются по центру перпендикулярной оси;
 }*/
+/*justify-content и align-items применяются к родительскому контейнеру*/

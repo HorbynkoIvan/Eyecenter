@@ -3,7 +3,7 @@ import {GridList, GridTile} from 'material-ui/GridList';
 import IconButton from 'material-ui/IconButton';
 import Subheader from 'material-ui/Subheader';
 import StarBorder from 'material-ui/svg-icons/toggle/star-border';
-import prod1 from "../../public/img/products/Layer 7.png";
+/*import prod1 from "../../public/img/products/Layer 7.png";*/
 
 const styles = {
     root: {
