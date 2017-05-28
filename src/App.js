@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <div>
                 <Header/>
-                <main>
+                <main className="container">
                     <Specoffers/>
                     <GoodsList/>
                 </main>

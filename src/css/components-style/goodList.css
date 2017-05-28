@@ -1,0 +1,20 @@
+.categoryTitle {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 30px 0;
+}
+.card .card-content {
+    text-align: center;
+}
+
+.goodList p.cardTitle {
+    color: #a77c5a;
+    font-size: 1.125rem;
+}
+
+.cardPrice {
+    color: #212121;
+    font-size: 1.875rem;
+    font-weight: bold;
+}

@@ -6,14 +6,21 @@ import saturation2 from "../../../public/img/saturation2.jpg";
 import shipping from "../../../public/img/shipping.png";
 import returning from "../../../public/img/return.png";
 
-class Specoffers extends Component {
+/*console.log(document.getElementsByClassName("saturation2"));*/
 
+/*window.onload = function () {
+    console.log("height")
+    console.log(document.getElementsByClassName("saturation2").img.naturalHeight);
+};*/
+
+class Specoffers extends Component {
     render() {
         return (
             <div className="row specoffers">
-                <div className="col s12 m7">
+                <div className="col s12 m7 aaa">
                     <img className="responsive-img" src={saturation1} alt="saturation1"/>
                     <div className="service">
+                        {/*ToDo align block "service" on baseline*/}
                         <div className="service-shipping">
                             <img src={shipping} alt="shipping"/>
                             <p className="service-shipping__free">free shipping</p>
@@ -27,7 +34,7 @@ class Specoffers extends Component {
                     </div>
                 </div>
                 <div className="col s12 m5">
-                    <img className="responsive-img" src={saturation2} alt="saturation2"/>
+                    <img className="responsive-img saturation2" src={saturation2} alt="saturation2"/>
                 </div>
             </div>
         )

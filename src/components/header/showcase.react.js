@@ -9,7 +9,7 @@ class Showcase extends Component {
 
     render() {
         return (
-            <div className="showcase">
+            <div className="container showcase">
                 <div className="row">
                     <div className="col s12 m6">
                         <p>women</p>
