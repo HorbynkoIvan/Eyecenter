@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../../css/components-style/goodList.css';
 import good1 from "../../../public/img/products/Layer-7.png";
+import FlatButton from 'material-ui/FlatButton';
 
 class GoodsList extends Component {
 
@@ -8,7 +9,7 @@ class GoodsList extends Component {
         return (
             <div className="goodList">
                 <div className="categoryTitle">
-                    bestsellers
+                    <span>best</span>sellers
                 </div>
                 <div className="row">
                     <div className="col s12 m3">
@@ -22,9 +23,10 @@ class GoodsList extends Component {
                             </div>
                         </div>
                     </div>
+                    <FlatButton label="Get more"/>
                 </div>
                 <div className="categoryTitle">
-                    newarrivals
+                    <span>new</span>arrivals
                 </div>
                 <div className="row">
                     <div className="col s12 m3">

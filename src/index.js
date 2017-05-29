@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import injectTapEventPlugin from 'react-tap-event-plugin';
 // Needed for onTouchTap
@@ -8,6 +9,9 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
 ReactDOM.render(
-  <App />,
+    <MuiThemeProvider>
+        <App />
+    </MuiThemeProvider>
+  ,
   document.getElementById('root')
 );

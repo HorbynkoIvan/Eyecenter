@@ -4,6 +4,9 @@
     font-size: 3rem;
     padding: 30px 0;
 }
+.categoryTitle span{
+    color: #a77c5a;
+}
 .card .card-content {
     text-align: center;
 }
