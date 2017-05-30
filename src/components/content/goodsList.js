@@ -1,7 +1,30 @@
 import React, {Component} from 'react';
+import FontIcon from 'material-ui/FontIcon';
 import '../../css/components-style/goodList.css';
 import good1 from "../../../public/img/products/Layer-7.png";
 import FlatButton from 'material-ui/FlatButton';
+import {blue500, red500, greenA200} from 'material-ui/styles/colors';
+
+const styles = {
+    button: {
+        width: "305px",
+        height: "80px",
+        border: "1px solid #a77c5a",
+        display: "block",
+        margin: "auto"
+
+    },
+    labelButton: {
+        fontSize: "1.125rem",
+        fontWeight: "bold",
+        textTransform: "uppercase"
+    },
+    iconStyles: {
+        marginRight: "20px"
+    }
+
+};
+
 
 class GoodsList extends Component {
 
@@ -13,7 +36,7 @@ class GoodsList extends Component {
                 </div>
                 <div className="row">
                     <div className="col s12 m3">
-                        <div className="card">
+                        <div className="card hoverable">
                             <div className="card-image">
                                 <img src={good1}/>
                             </div>
@@ -23,7 +46,16 @@ class GoodsList extends Component {
                             </div>
                         </div>
                     </div>
-                    <FlatButton label="Get more"/>
+                </div>
+                <div className="row">
+                    <FlatButton label="load more"
+                                style={styles.button}
+                                labelStyle={styles.labelButton}
+                                color={red500}
+                                icon={ <FontIcon className="material-icons"
+                                                 style={styles.iconStyles}
+                                                 >label</FontIcon>}
+                    />
                 </div>
                 <div className="categoryTitle">
                     <span>new</span>arrivals
@@ -40,6 +72,16 @@ class GoodsList extends Component {
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className="row">
+                    <FlatButton label="load more"
+                                style={styles.button}
+                                labelStyle={styles.labelButton}
+                                color={red500}
+                                icon={ <FontIcon className="material-icons"
+                                                 style={styles.iconStyles}
+                                                 >label</FontIcon>}
+                    />
                 </div>
             </div>
         )
