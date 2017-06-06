@@ -8,6 +8,7 @@ import Footer from './components/footer/footer.react';
 import GoodsList from './components/content/goodsList';
 import BrandsList from './components/content/brands';
 import Banners from './components/content/banners';
+import Subscribe from './components/subscribe/subscribe.react';
 import GridList from './matuicomp/gridList';
 
 const App = () => (
@@ -19,6 +20,7 @@ const App = () => (
             </main>
             <BrandsList/>
             <Banners/>
+            <Subscribe/>
             <Footer/>
         </div>
 );
