@@ -9,8 +9,8 @@ const SubscribeForm = ()=> {
                        id="subscribe_email"
                        placeholder="YOUR EMAIL ADDRESS"
                        required/>
-                <button className="subscribe_button">
-                    <i className="material-icons">input</i>
+                <button className="subscribe_button waves-effect waves-light">
+                    <i className="material-icons medium">input</i>
                 </button>
             </form>
         )
