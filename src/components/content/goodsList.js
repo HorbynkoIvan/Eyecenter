@@ -46,6 +46,39 @@ class GoodsList extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="col s12 m3">
+                        <div className="card hoverable">
+                            <div className="card-image">
+                                <img src={good1}/>
+                            </div>
+                            <div className="card-content">
+                                <p className="cardTitle">nlnlnl</p>
+                                <p className="cardPrice">5555</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s12 m3">
+                        <div className="card hoverable">
+                            <div className="card-image">
+                                <img src={good1}/>
+                            </div>
+                            <div className="card-content">
+                                <p className="cardTitle">nlnlnl</p>
+                                <p className="cardPrice">5555</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col s12 m3">
+                        <div className="card hoverable">
+                            <div className="card-image">
+                                <img src={good1}/>
+                            </div>
+                            <div className="card-content">
+                                <p className="cardTitle">nlnlnl</p>
+                                <p className="cardPrice">5555</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="row">
                     <FlatButton label="load more"
