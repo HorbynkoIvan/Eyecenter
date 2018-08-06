@@ -17,6 +17,3 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea/
-
-public/img/banners/
-src/components/header/header_components/
